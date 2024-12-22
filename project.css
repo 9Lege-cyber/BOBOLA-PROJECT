@@ -1,0 +1,416 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .stroke {
+    width: 1px;
+    border-right: 1px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+  }
+  .anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .pav {
+    background-color: rgb(247, 242, 242);
+    display: flex;
+    padding: 0.5em 5em;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
+    height: 20px;
+    width: 50%;
+  
+    margin-top: 0px;
+  }
+  .nike-sign {
+    margin-left: 0px;
+  }
+  .second {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5em;
+    position: static;
+  }
+  .new {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: medium;
+  
+    transition: font-size 0.3s ease-in-out, text-decoration 0.3s;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    flex-direction: row;
+  }
+  .search-bar input[type="text"]::placeholder {
+    text-align: left;
+  }
+  .search-bar svg {
+    pointer-events: none;
+    width: 16px;
+    text-align: left;
+  }
+  
+  .search-bar input {
+    padding-left: 0.25em;
+    border-radius: 20px;
+  
+    border: white;
+  }
+  .search-bar {
+    padding-left: 0.5em;
+    display: flex;
+    align-items: center;
+    border-radius: 1.25rem;
+    margin-right: 8px;
+    border: 1px solid black;
+  }
+  
+  .dynamic_div {
+    height: 300px;
+    width: 100%;
+  }
+  .dynamic {
+    font-size: 80px;
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .img1 {
+    margin-right: 0px;
+  }
+  .aj {
+    text-align: center;
+  }
+  .bag {
+    height: 1px;
+  }
+  .heart {
+    height: 25px;
+    width: 16px;
+  }
+  .contain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logos {
+    display: flex;
+    align-items: center;
+  }
+  .logos img {
+    height: 2rem;
+    width: 2rem;
+  }
+  .new :hover {
+    text-decoration: underline black;
+    font-size: 1.2em;
+  }
+  .shop {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .shop button {
+    border-radius: 16px;
+    width: 70px;
+    height: 30px;
+    border: none;
+    background-color: rgb(89, 87, 87);
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .shop button:hover {
+    background-color: #e7e5e5;
+  }
+  .about {
+    color: white;
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+  }
+  .CONTAINERRR {
+    background-color: rgb(15, 14, 14);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .down-cont {
+    display: flex;
+    justify-content: center;
+  }
+  .ab-us {
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    transition: font-size 0.3s ease-in-out, text-decoration 0.3s;
+  
+    color: white;
+  }
+  .ab-us:hover {
+    text-decoration: underline;
+    font-size: 1.1em;
+  }
+  .athletes {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 100px;
+    display: flex;
+  }
+  .athletes:hover {
+    color: rgb(89, 87, 87);
+  }
+  
+  #children {
+    display: flex;
+    align-items: center;
+    padding: 7em 7em;
+    color: white;
+    flex-direction: column;
+  }
+  .Caption {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 0.5em;
+  }
+  .Caption:hover {
+    color: rgb(89, 87, 87);
+  }
+  .nike-invests {
+    color: rgb(89, 87, 87);
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 75px;
+    z-index: 2;
+  }
+  .button {
+    position: absolute;
+    margin-bottom: 0;
+    position: absolute;
+    top: 85%;
+    left: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 0;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    font-size: large;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  #contain-button {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contain {
+    position: relative;
+  }
+  
+  .container {
+    flex-flow: wrap;
+  }
+  
+  .description {
+    position: absolute;
+    margin-bottom: 0;
+    position: absolute;
+    top: 70%;
+    left: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+  }
+  
+  .latestdrops {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: xxx-large;
+  }
+  
+  .latestdrops,
+  .featuring {
+    text-align: center;
+  }
+  
+  img {
+    cursor: pointer;
+    display: block;
+  }
+  
+  #last-button {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    font-size: large;
+    cursor: pointer;
+    font-weight: 500;
+    border: 0;
+  }
+  
+  .featuring {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  
+  #start {
+    display: flex;
+    width: 100%;
+  }
+  
+  .text {
+    position: absolute;
+    margin-bottom: 0;
+    position: absolute;
+    top: 60%;
+    left: 0;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+  }
+  
+  .nike-invests:hover {
+    color: white;
+  }
+  .teddy {
+    padding-top: 2em;
+    padding-left: 320px;
+  }
+  .Building {
+    font-size: 30px;
+    padding-top: 0.5em;
+  }
+  .Building:hover {
+    color: rgb(89, 87, 87);
+  }
+  .employees {
+    color: rgb(89, 87, 87);
+    font-size: 20px;
+    padding-top: 5px;
+  }
+  .two-women {
+    padding-top: 11px;
+    z-index: 1;
+  }
+  .power-of-nike {
+    font-size: 40px;
+    width: 400px;
+  }
+  .power-of-nike:hover {
+    color: rgb(89, 87, 87);
+  }
+  
+  .idk-man {
+    display: flex;
+    flex-direction: row;
+  
+    width: 700px;
+  }
+  
+  .fy231 button {
+    width: 250px;
+    border-radius: 30px;
+    height: 50px;
+  }
+  
+  .fy231 {
+    display: flex;
+    align-items: center;
+    padding: 3em;
+  }
+  .aup {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    padding-top: 70px;
+    padding-left: 70px;
+    justify-content: space-between;
+  }
+  .same {
+    color: #707072;
+    font-weight: 500;
+  }
+  .same:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .copyright {
+    color: rgb(90, 89, 89);
+    font-weight: 520;
+  }
+  .last-part {
+    padding-left: 70px;
+    padding-bottom: 70px;
+  }
+  .copyright:hover {
+    color: black;
+    cursor: pointer;
+  }
+  .line {
+    border-bottom: 1px solid rgb(131, 129, 129);
+    padding: 37px 17px;
+    padding-left: 17px;
+    width: 1300px;
+    height: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  .globeim {
+    display: flex;
+  color: #707072;
+    padding-right: 0em;
+    width: 350px;
+    align-items: top;
+    height: 50px;
+    margin-top: 65px;
+    justify-content: center;
+  }
+  .united {
+    padding-left: 6px;
+  }
+  .container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
